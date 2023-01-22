@@ -12,6 +12,7 @@ public class exercicioAula8_3_1 {
         }else {
             double total1 = 60 - total;
             System.out.printf("Nota Final: %.2f%nReprovodo%nfaltam %.2f pontos",total,total1);
+
         }
     }
 }
