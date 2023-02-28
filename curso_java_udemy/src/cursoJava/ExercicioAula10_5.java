@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class ExercicioAula10_5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.print("Quantos Valores vai ter cada vetor? ");
         int quantidade = input.nextInt();
-        int tabelaA[] = new int[quantidade];
-        int tabelaB[] = new int[quantidade];
-        int tabelaC[] = new int[quantidade];
+
+        int[] tabelaA = new int[quantidade];
+        int[] tabelaB = new int[quantidade];
+        int[] tabelaC = new int[quantidade];
 
         System.out.println("Digite os valores do vetor A: ");
         for (int i = 0; i < tabelaA.length; i++) {
